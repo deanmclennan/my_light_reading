@@ -592,6 +592,77 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Science & Space",
+      "links": [
+        { "title": "NASA", "url": "https://nasa.gov" },
+        { "title": "SpaceX", "url": "https://spacex.com" },
+        { "title": "Ars Technica Space", "url": "https://arstechnica.com/space" },
+        { "title": "Space.com", "url": "https://space.com" },
+        { "title": "Nature", "url": "https://nature.com" },
+        { "title": "Science Daily", "url": "https://sciencedaily.com" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Topic",
+          "subcategories": [
+            {
+              "name": "Space News",
+              "links": [
+                { "title": "Space.com", "url": "https://space.com" },
+                { "title": "SpaceNews", "url": "https://spacenews.com" },
+                { "title": "Ars Technica Space", "url": "https://arstechnica.com/space" },
+                { "title": "NASASpaceflight", "url": "https://nasaspaceflight.com" },
+                { "title": "Spaceflight Now", "url": "https://spaceflightnow.com" },
+                { "title": "The Planetary Society", "url": "https://planetary.org" }
+              ]
+            },
+            {
+              "name": "Space Agencies",
+              "links": [
+                { "title": "NASA", "url": "https://nasa.gov" },
+                { "title": "ESA", "url": "https://esa.int" },
+                { "title": "JAXA", "url": "https://jaxa.jp/en" },
+                { "title": "SpaceX", "url": "https://spacex.com" },
+                { "title": "Blue Origin", "url": "https://blueorigin.com" },
+                { "title": "Rocket Lab", "url": "https://rocketlabusa.com" }
+              ]
+            },
+            {
+              "name": "Science News",
+              "links": [
+                { "title": "Science Daily", "url": "https://sciencedaily.com" },
+                { "title": "Phys.org", "url": "https://phys.org" },
+                { "title": "Live Science", "url": "https://livescience.com" },
+                { "title": "New Scientist", "url": "https://newscientist.com" },
+                { "title": "Scientific American", "url": "https://scientificamerican.com" },
+                { "title": "Quanta Magazine", "url": "https://quantamagazine.org" }
+              ]
+            },
+            {
+              "name": "Journals",
+              "links": [
+                { "title": "Nature", "url": "https://nature.com" },
+                { "title": "Science", "url": "https://science.org" },
+                { "title": "PNAS", "url": "https://pnas.org" },
+                { "title": "arXiv", "url": "https://arxiv.org" },
+                { "title": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov" }
+              ]
+            },
+            {
+              "name": "Astronomy",
+              "links": [
+                { "title": "Sky & Telescope", "url": "https://skyandtelescope.org" },
+                { "title": "Astronomy Magazine", "url": "https://astronomy.com" },
+                { "title": "EarthSky", "url": "https://earthsky.org" },
+                { "title": "Universe Today", "url": "https://universetoday.com" },
+                { "title": "Stellarium Web", "url": "https://stellarium-web.org" }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
