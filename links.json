@@ -741,6 +741,88 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Entertainment",
+      "links": [
+        { "title": "IMDb", "url": "https://imdb.com" },
+        { "title": "Rotten Tomatoes", "url": "https://rottentomatoes.com" },
+        { "title": "Variety", "url": "https://variety.com" },
+        { "title": "The Hollywood Reporter", "url": "https://hollywoodreporter.com" },
+        { "title": "Letterboxd", "url": "https://letterboxd.com" },
+        { "title": "JustWatch", "url": "https://justwatch.com" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Topic",
+          "subcategories": [
+            {
+              "name": "Movies",
+              "links": [
+                { "title": "IMDb", "url": "https://imdb.com" },
+                { "title": "Rotten Tomatoes", "url": "https://rottentomatoes.com" },
+                { "title": "Letterboxd", "url": "https://letterboxd.com" },
+                { "title": "Metacritic", "url": "https://metacritic.com" },
+                { "title": "Box Office Mojo", "url": "https://boxofficemojo.com" },
+                { "title": "The Numbers", "url": "https://the-numbers.com" }
+              ]
+            },
+            {
+              "name": "Industry News",
+              "links": [
+                { "title": "Variety", "url": "https://variety.com" },
+                { "title": "The Hollywood Reporter", "url": "https://hollywoodreporter.com" },
+                { "title": "Deadline", "url": "https://deadline.com" },
+                { "title": "IndieWire", "url": "https://indiewire.com" },
+                { "title": "Screen Rant", "url": "https://screenrant.com" },
+                { "title": "Collider", "url": "https://collider.com" }
+              ]
+            },
+            {
+              "name": "Streaming",
+              "links": [
+                { "title": "JustWatch", "url": "https://justwatch.com" },
+                { "title": "Reelgood", "url": "https://reelgood.com" },
+                { "title": "Netflix", "url": "https://netflix.com" },
+                { "title": "Disney+", "url": "https://disneyplus.com" },
+                { "title": "Max", "url": "https://max.com" },
+                { "title": "Prime Video", "url": "https://primevideo.com" }
+              ]
+            },
+            {
+              "name": "TV Shows",
+              "links": [
+                { "title": "TV Time", "url": "https://tvtime.com" },
+                { "title": "Trakt", "url": "https://trakt.tv" },
+                { "title": "TVMaze", "url": "https://tvmaze.com" },
+                { "title": "TheTVDB", "url": "https://thetvdb.com" },
+                { "title": "Reddit r/television", "url": "https://reddit.com/r/television" }
+              ]
+            },
+            {
+              "name": "Music",
+              "links": [
+                { "title": "Pitchfork", "url": "https://pitchfork.com" },
+                { "title": "Stereogum", "url": "https://stereogum.com" },
+                { "title": "Consequence", "url": "https://consequence.net" },
+                { "title": "Bandcamp", "url": "https://bandcamp.com" },
+                { "title": "Rate Your Music", "url": "https://rateyourmusic.com" },
+                { "title": "Album of the Year", "url": "https://albumoftheyear.org" }
+              ]
+            },
+            {
+              "name": "Reviews & Critics",
+              "links": [
+                { "title": "Roger Ebert", "url": "https://rogerebert.com" },
+                { "title": "A.V. Club", "url": "https://avclub.com" },
+                { "title": "Vulture", "url": "https://vulture.com" },
+                { "title": "The Ringer", "url": "https://theringer.com" },
+                { "title": "Reddit r/movies", "url": "https://reddit.com/r/movies" }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
