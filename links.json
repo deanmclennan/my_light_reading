@@ -1,0 +1,528 @@
+{
+  "categories": [
+    {
+      "name": "Cyber Security",
+      "links": [
+        { "title": "Krebs on Security", "url": "https://krebsonsecurity.com", "rss": "https://krebsonsecurity.com/feed/" },
+        { "title": "The Hacker News", "url": "https://thehackernews.com", "rss": "https://feeds.feedburner.com/TheHackersNews" },
+        { "title": "Dark Reading", "url": "https://darkreading.com", "rss": "https://www.darkreading.com/rss.xml" },
+        { "title": "Threatpost", "url": "https://threatpost.com", "rss": "https://threatpost.com/feed/" },
+        { "title": "Bleeping Computer", "url": "https://bleepingcomputer.com", "rss": "https://www.bleepingcomputer.com/feed/" },
+        { "title": "Security Week", "url": "https://securityweek.com", "rss": "https://feeds.feedburner.com/securityweek" }
+      ],
+      "subcategories": [
+        {
+          "name": "Academic Resources & Research",
+          "subcategories": [
+            {
+              "name": "Academic Journals",
+              "links": [
+                { "title": "IEEE Security & Privacy", "url": "https://computer.org/security-and-privacy" },
+                { "title": "ACM TISSEC", "url": "https://dl.acm.org/journal/tissec" },
+                { "title": "Journal of Cybersecurity", "url": "https://academic.oup.com/cybersecurity" },
+                { "title": "Computers & Security", "url": "https://journals.elsevier.com/computers-and-security" },
+                { "title": "Digital Investigation", "url": "https://journals.elsevier.com/digital-investigation" }
+              ]
+            },
+            {
+              "name": "Research Institutions",
+              "links": [
+                { "title": "MIT CSAIL Security", "url": "https://csail.mit.edu/research/security" },
+                { "title": "Berkeley Security Group", "url": "https://security.cs.berkeley.edu" },
+                { "title": "Stanford Security Lab", "url": "https://seclab.stanford.edu" },
+                { "title": "Carnegie Mellon SEI", "url": "https://sei.cmu.edu" },
+                { "title": "Oxford Cyber Security", "url": "https://cybersecurity.ox.ac.uk" }
+              ]
+            },
+            {
+              "name": "Research Projects",
+              "links": [
+                { "title": "Internet Storm Center", "url": "https://isc.sans.org" },
+                { "title": "The Tor Project", "url": "https://torproject.org" },
+                { "title": "MIT Kerberos", "url": "https://web.mit.edu/kerberos" },
+                { "title": "Berkeley SENSEI", "url": "https://sensei.berkeley.edu" },
+                { "title": "Stanford Applied Crypto", "url": "https://crypto.stanford.edu" }
+              ]
+            },
+            {
+              "name": "Emerging Technology Research",
+              "links": [
+                { "title": "QED-C", "url": "https://quantumconsortium.org" },
+                { "title": "AI Security Alliance", "url": "https://ai-sec.com" },
+                { "title": "Blockchain Security Alliance", "url": "https://bsa-alliance.org" },
+                { "title": "Edge Computing Alliance", "url": "https://eca-alliance.org" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Community & Discussion",
+          "subcategories": [
+            {
+              "name": "Bug Bounty Communities",
+              "links": [
+                { "title": "HackerOne Forums", "url": "https://hackerone.com/hackers" },
+                { "title": "Bugcrowd Forums", "url": "https://bugcrowd.com/forums" },
+                { "title": "Intigriti Forum", "url": "https://intigriti.com/forum" }
+              ]
+            },
+            {
+              "name": "Online Discussion Platforms",
+              "links": [
+                { "title": "Security Stack Exchange", "url": "https://security.stackexchange.com" },
+                { "title": "Reddit r/netsec", "url": "https://reddit.com/r/netsec" },
+                { "title": "Reddit r/cybersecurity", "url": "https://reddit.com/r/cybersecurity" },
+                { "title": "LinkedIn Security Groups", "url": "https://linkedin.com/groups" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tech News",
+      "links": [
+        { "title": "Hacker News", "url": "https://news.ycombinator.com", "rss": "https://hnrss.org/frontpage" },
+        { "title": "Lobsters", "url": "https://lobste.rs", "rss": "https://lobste.rs/rss" },
+        { "title": "Ars Technica", "url": "https://arstechnica.com", "rss": "https://feeds.arstechnica.com/arstechnica/technology-lab" },
+        { "title": "The Verge", "url": "https://theverge.com", "rss": "https://www.theverge.com/rss/index.xml" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Focus",
+          "subcategories": [
+            {
+              "name": "General Tech",
+              "links": [
+                { "title": "TechCrunch", "url": "https://techcrunch.com" },
+                { "title": "Wired", "url": "https://wired.com" },
+                { "title": "Engadget", "url": "https://engadget.com" },
+                { "title": "Gizmodo", "url": "https://gizmodo.com" }
+              ]
+            },
+            {
+              "name": "Business & Startups",
+              "links": [
+                { "title": "TechCrunch Startups", "url": "https://techcrunch.com/startups" },
+                { "title": "VentureBeat", "url": "https://venturebeat.com" },
+                { "title": "Business Insider Tech", "url": "https://businessinsider.com/tech" }
+              ]
+            },
+            {
+              "name": "AI & ML",
+              "links": [
+                { "title": "AI News", "url": "https://artificialintelligence-news.com" },
+                { "title": "The Batch", "url": "https://deeplearning.ai/the-batch" },
+                { "title": "MIT Tech Review AI", "url": "https://technologyreview.com/topic/artificial-intelligence" }
+              ]
+            },
+            {
+              "name": "Aggregators",
+              "links": [
+                { "title": "Techmeme", "url": "https://techmeme.com" },
+                { "title": "Slashdot", "url": "https://slashdot.org" },
+                { "title": "Reddit r/technology", "url": "https://reddit.com/r/technology" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Development",
+      "links": [
+        { "title": "GitHub", "url": "https://github.com" },
+        { "title": "Stack Overflow", "url": "https://stackoverflow.com" },
+        { "title": "MDN Web Docs", "url": "https://developer.mozilla.org" },
+        { "title": "Dev.to", "url": "https://dev.to" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Language",
+          "subcategories": [
+            {
+              "name": "JavaScript",
+              "links": [
+                { "title": "JavaScript.info", "url": "https://javascript.info" },
+                { "title": "Node.js", "url": "https://nodejs.org" },
+                { "title": "React Docs", "url": "https://react.dev" },
+                { "title": "Vue.js", "url": "https://vuejs.org" }
+              ]
+            },
+            {
+              "name": "Python",
+              "links": [
+                { "title": "Python.org", "url": "https://python.org" },
+                { "title": "Real Python", "url": "https://realpython.com" },
+                { "title": "PyPI", "url": "https://pypi.org" },
+                { "title": "Django", "url": "https://djangoproject.com" }
+              ]
+            },
+            {
+              "name": "Rust",
+              "links": [
+                { "title": "Rust Lang", "url": "https://rust-lang.org" },
+                { "title": "Rust Book", "url": "https://doc.rust-lang.org/book" },
+                { "title": "Crates.io", "url": "https://crates.io" },
+                { "title": "This Week in Rust", "url": "https://this-week-in-rust.org" }
+              ]
+            },
+            {
+              "name": "Go",
+              "links": [
+                { "title": "Go.dev", "url": "https://go.dev" },
+                { "title": "Go by Example", "url": "https://gobyexample.com" },
+                { "title": "Awesome Go", "url": "https://awesome-go.com" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "links": [
+        { "title": "Regex101", "url": "https://regex101.com" },
+        { "title": "JSON Formatter", "url": "https://jsonformatter.org" },
+        { "title": "Can I Use", "url": "https://caniuse.com" },
+        { "title": "CodePen", "url": "https://codepen.io" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Type",
+          "subcategories": [
+            {
+              "name": "Code Editors",
+              "links": [
+                { "title": "VS Code", "url": "https://code.visualstudio.com" },
+                { "title": "CodeSandbox", "url": "https://codesandbox.io" },
+                { "title": "Replit", "url": "https://replit.com" },
+                { "title": "StackBlitz", "url": "https://stackblitz.com" }
+              ]
+            },
+            {
+              "name": "Design & CSS",
+              "links": [
+                { "title": "Figma", "url": "https://figma.com" },
+                { "title": "Coolors", "url": "https://coolors.co" },
+                { "title": "CSS Gradient", "url": "https://cssgradient.io" },
+                { "title": "Google Fonts", "url": "https://fonts.google.com" }
+              ]
+            },
+            {
+              "name": "APIs & Testing",
+              "links": [
+                { "title": "Postman", "url": "https://postman.com" },
+                { "title": "Insomnia", "url": "https://insomnia.rest" },
+                { "title": "HTTPie", "url": "https://httpie.io" },
+                { "title": "Webhook.site", "url": "https://webhook.site" }
+              ]
+            },
+            {
+              "name": "Converters",
+              "links": [
+                { "title": "Transform Tools", "url": "https://transform.tools" },
+                { "title": "Base64 Encode", "url": "https://base64encode.org" },
+                { "title": "URL Encoder", "url": "https://urlencoder.org" },
+                { "title": "Epoch Converter", "url": "https://epochconverter.com" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aviation",
+      "links": [
+        { "title": "Simple Flying", "url": "https://simpleflying.com", "rss": "https://simpleflying.com/feed/" },
+        { "title": "AVweb", "url": "https://avweb.com", "rss": "https://www.avweb.com/feed/" },
+        { "title": "The Aviationist", "url": "https://theaviationist.com", "rss": "https://theaviationist.com/feed/" },
+        { "title": "FlightGlobal", "url": "https://flightglobal.com", "rss": "https://www.flightglobal.com/rss" }
+      ],
+      "subcategories": [
+        {
+          "name": "News & Media",
+          "subcategories": [
+            {
+              "name": "General News",
+              "links": [
+                { "title": "Simple Flying", "url": "https://simpleflying.com" },
+                { "title": "AVweb", "url": "https://avweb.com" },
+                { "title": "Aero-News", "url": "https://aero-news.net" },
+                { "title": "AeroTime", "url": "https://aerotime.aero" },
+                { "title": "The Aviationist", "url": "https://theaviationist.com" },
+                { "title": "FlightGlobal", "url": "https://flightglobal.com" },
+                { "title": "Aviation24", "url": "https://aviation24.be" },
+                { "title": "Airways Magazine", "url": "https://airwaysmag.com" },
+                { "title": "Aviation Today", "url": "https://aviationtoday.com" },
+                { "title": "Aviation Week", "url": "https://aviationweek.com" }
+              ]
+            },
+            {
+              "name": "Regional News",
+              "links": [
+                { "title": "Australian Aviation", "url": "https://australianaviation.com.au" },
+                { "title": "Ex-Yu Aviation", "url": "https://exyuaviation.com" },
+                { "title": "AirData News", "url": "https://airdata.news" },
+                { "title": "CH-Aviation", "url": "https://ch-aviation.com" },
+                { "title": "Seattle Times Boeing", "url": "https://seattletimes.com/boeing-aerospace" }
+              ]
+            },
+            {
+              "name": "Airlines & Travel",
+              "links": [
+                { "title": "Airline Reporter", "url": "https://airlinereporter.com" },
+                { "title": "AirSoc", "url": "https://airsoc.com" },
+                { "title": "AirlineRatings", "url": "https://airlineratings.com" },
+                { "title": "SamChui", "url": "https://samchui.com" },
+                { "title": "Runway Girl Network", "url": "https://runwaygirlnetwork.com" },
+                { "title": "Aircraft Interiors Intl", "url": "https://aircraftinteriorsinternational.com" },
+                { "title": "AirlinerWatch", "url": "https://airlinerwatch.com" },
+                { "title": "Paddleyourownkanoo", "url": "https://paddleyourownkanoo.com" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sectors",
+          "subcategories": [
+            {
+              "name": "Business Aviation",
+              "links": [
+                { "title": "AIN Online", "url": "https://ainonline.com" },
+                { "title": "Business Air News", "url": "https://businessairnews.com" },
+                { "title": "Business Airport Intl", "url": "https://businessairportinternational.com" },
+                { "title": "FutureFlight", "url": "https://futureflight.aero" },
+                { "title": "Robb Report Aviation", "url": "https://robbreport.com/aviation" }
+              ]
+            },
+            {
+              "name": "Military",
+              "links": [
+                { "title": "The Aviationist", "url": "https://theaviationist.com" },
+                { "title": "Military Aviation News", "url": "https://flightglobal.com/military" },
+                { "title": "Airforce Technology", "url": "https://airforce-technology.com" }
+              ]
+            },
+            {
+              "name": "Helicopters",
+              "links": [
+                { "title": "Vertical Magazine", "url": "https://verticalmag.com" },
+                { "title": "Rotorcraft Pro", "url": "https://rotorcraftpro.com" },
+                { "title": "HeliHub", "url": "https://helihub.com" }
+              ]
+            },
+            {
+              "name": "Cargo & Airports",
+              "links": [
+                { "title": "Air Cargo Week", "url": "https://aircargoweek.com" },
+                { "title": "Airport Technology", "url": "https://airport-technology.com" },
+                { "title": "AirNav", "url": "https://airnav.com" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Resources",
+          "subcategories": [
+            {
+              "name": "Flight Tracking",
+              "links": [
+                { "title": "FlightAware", "url": "https://flightaware.com" },
+                { "title": "FlightRadar24", "url": "https://flightradar24.com" },
+                { "title": "ADS-B Exchange", "url": "https://adsbexchange.com" },
+                { "title": "Plane Finder", "url": "https://planefinder.net" }
+              ]
+            },
+            {
+              "name": "General Aviation",
+              "links": [
+                { "title": "AOPA", "url": "https://aopa.org" },
+                { "title": "Flyer", "url": "https://flyer.co.uk" },
+                { "title": "General Aviation News", "url": "https://generalaviationnews.com" },
+                { "title": "Plane and Pilot", "url": "https://planeandpilotmag.com" },
+                { "title": "AskThePilot", "url": "https://askthepilot.com" },
+                { "title": "Aviator.aero", "url": "https://aviator.aero" }
+              ]
+            },
+            {
+              "name": "Reference",
+              "links": [
+                { "title": "Airliners.net", "url": "https://airliners.net" },
+                { "title": "Planespotters.net", "url": "https://planespotters.net" },
+                { "title": "Aircraft Compare", "url": "https://aircraftcompare.com" },
+                { "title": "AeroInside", "url": "https://aeroinside.com" },
+                { "title": "SkyVector", "url": "https://skyvector.com" }
+              ]
+            },
+            {
+              "name": "Industry & Tech",
+              "links": [
+                { "title": "AviationPros", "url": "https://aviationpros.com" },
+                { "title": "Aviation Maintenance", "url": "https://aviationmaintenance.edu" },
+                { "title": "Unmanned Systems Tech", "url": "https://unmannedsystemstechnology.com" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Computers",
+      "links": [
+        { "title": "AnandTech", "url": "https://anandtech.com" },
+        { "title": "Tom's Hardware", "url": "https://tomshardware.com" },
+        { "title": "ServeTheHome", "url": "https://servethehome.com" },
+        { "title": "Level1Techs", "url": "https://level1techs.com" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Topic",
+          "subcategories": [
+            {
+              "name": "Hardware Reviews",
+              "links": [
+                { "title": "AnandTech", "url": "https://anandtech.com" },
+                { "title": "Tom's Hardware", "url": "https://tomshardware.com" },
+                { "title": "Gamers Nexus", "url": "https://gamersnexus.net" },
+                { "title": "Hardware Unboxed", "url": "https://hardwareunboxed.com" }
+              ]
+            },
+            {
+              "name": "PC Building",
+              "links": [
+                { "title": "PCPartPicker", "url": "https://pcpartpicker.com" },
+                { "title": "Logical Increments", "url": "https://logicalincrements.com" },
+                { "title": "Reddit r/buildapc", "url": "https://reddit.com/r/buildapc" },
+                { "title": "UserBenchmark", "url": "https://userbenchmark.com" }
+              ]
+            },
+            {
+              "name": "Homelab & Servers",
+              "links": [
+                { "title": "ServeTheHome", "url": "https://servethehome.com" },
+                { "title": "Reddit r/homelab", "url": "https://reddit.com/r/homelab" },
+                { "title": "Reddit r/selfhosted", "url": "https://reddit.com/r/selfhosted" },
+                { "title": "Awesome Selfhosted", "url": "https://awesome-selfhosted.net" }
+              ]
+            },
+            {
+              "name": "Linux & OS",
+              "links": [
+                { "title": "DistroWatch", "url": "https://distrowatch.com" },
+                { "title": "It's FOSS", "url": "https://itsfoss.com" },
+                { "title": "Phoronix", "url": "https://phoronix.com" },
+                { "title": "OMG Ubuntu", "url": "https://omgubuntu.co.uk" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gaming",
+      "links": [
+        { "title": "IGN", "url": "https://ign.com", "rss": "https://feeds.feedburner.com/ign/games-all" },
+        { "title": "Kotaku", "url": "https://kotaku.com", "rss": "https://kotaku.com/rss" },
+        { "title": "Polygon", "url": "https://polygon.com", "rss": "https://www.polygon.com/rss/index.xml" },
+        { "title": "PC Gamer", "url": "https://pcgamer.com", "rss": "https://www.pcgamer.com/rss/" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Platform",
+          "subcategories": [
+            {
+              "name": "PC Gaming",
+              "links": [
+                { "title": "PC Gamer", "url": "https://pcgamer.com" },
+                { "title": "Rock Paper Shotgun", "url": "https://rockpapershotgun.com" },
+                { "title": "Steam", "url": "https://store.steampowered.com" },
+                { "title": "GOG", "url": "https://gog.com" },
+                { "title": "Epic Games Store", "url": "https://store.epicgames.com" }
+              ]
+            },
+            {
+              "name": "Console",
+              "links": [
+                { "title": "PlayStation Blog", "url": "https://blog.playstation.com" },
+                { "title": "Xbox Wire", "url": "https://news.xbox.com" },
+                { "title": "Nintendo Life", "url": "https://nintendolife.com" },
+                { "title": "Push Square", "url": "https://pushsquare.com" }
+              ]
+            },
+            {
+              "name": "Mobile",
+              "links": [
+                { "title": "Pocket Gamer", "url": "https://pocketgamer.com" },
+                { "title": "TouchArcade", "url": "https://toucharcade.com" },
+                { "title": "Android Police Gaming", "url": "https://androidpolice.com/gaming" }
+              ]
+            },
+            {
+              "name": "VR",
+              "links": [
+                { "title": "Road to VR", "url": "https://roadtovr.com" },
+                { "title": "UploadVR", "url": "https://uploadvr.com" },
+                { "title": "VRScout", "url": "https://vrscout.com" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronics",
+      "links": [
+        { "title": "Hackaday", "url": "https://hackaday.com" },
+        { "title": "EEVblog", "url": "https://eevblog.com" },
+        { "title": "All About Circuits", "url": "https://allaboutcircuits.com" },
+        { "title": "Electronics Weekly", "url": "https://electronicsweekly.com" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Content Type",
+          "subcategories": [
+            {
+              "name": "Tutorials",
+              "links": [
+                { "title": "Adafruit Learning", "url": "https://learn.adafruit.com" },
+                { "title": "SparkFun Tutorials", "url": "https://learn.sparkfun.com" },
+                { "title": "Arduino Docs", "url": "https://docs.arduino.cc" },
+                { "title": "Raspberry Pi Tutorials", "url": "https://raspberrypi.com/tutorials" },
+                { "title": "Electronics Tutorials", "url": "https://electronics-tutorials.ws" }
+              ]
+            },
+            {
+              "name": "News",
+              "links": [
+                { "title": "Hackaday", "url": "https://hackaday.com" },
+                { "title": "IEEE Spectrum", "url": "https://spectrum.ieee.org" },
+                { "title": "EE Times", "url": "https://eetimes.com" },
+                { "title": "Electronics Weekly", "url": "https://electronicsweekly.com" }
+              ]
+            },
+            {
+              "name": "Forums",
+              "links": [
+                { "title": "EEVblog Forum", "url": "https://eevblog.com/forum" },
+                { "title": "Electronics Stack Exchange", "url": "https://electronics.stackexchange.com" },
+                { "title": "Reddit r/electronics", "url": "https://reddit.com/r/electronics" },
+                { "title": "Arduino Forum", "url": "https://forum.arduino.cc" }
+              ]
+            },
+            {
+              "name": "Shops",
+              "links": [
+                { "title": "Adafruit", "url": "https://adafruit.com" },
+                { "title": "SparkFun", "url": "https://sparkfun.com" },
+                { "title": "Digi-Key", "url": "https://digikey.com" },
+                { "title": "Mouser", "url": "https://mouser.com" },
+                { "title": "LCSC", "url": "https://lcsc.com" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
