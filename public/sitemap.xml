@@ -6,62 +6,62 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=cyber-security</loc>
+    <loc>https://mylightreading.com/category/cyber-security/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=tech-news</loc>
+    <loc>https://mylightreading.com/category/tech-news/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=development</loc>
+    <loc>https://mylightreading.com/category/development/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=tools</loc>
+    <loc>https://mylightreading.com/category/tools/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=aviation</loc>
+    <loc>https://mylightreading.com/category/aviation/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=computers</loc>
+    <loc>https://mylightreading.com/category/computers/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=gaming</loc>
+    <loc>https://mylightreading.com/category/gaming/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=electronics</loc>
+    <loc>https://mylightreading.com/category/electronics/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=finance</loc>
+    <loc>https://mylightreading.com/category/finance/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=science-space</loc>
+    <loc>https://mylightreading.com/category/science-space/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=health-medicine</loc>
+    <loc>https://mylightreading.com/category/health-medicine/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://mylightreading.com/category.html?cat=entertainment</loc>
+    <loc>https://mylightreading.com/category/entertainment/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
