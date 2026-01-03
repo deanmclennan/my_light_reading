@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Category - My Light Reading</title>
+  <meta name="description" content="Browse curated links and resources in this category on My Light Reading.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="My Light Reading">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -490,9 +500,14 @@
           return;
         }
 
-        document.title = `${categoryData.name} - My Light Reading`;
+        const linkCount = getTotalLinkCount();
+        document.title = `${categoryData.name} - Curated Links & Resources | My Light Reading`;
         document.getElementById('category-title').textContent = categoryData.name;
-        document.getElementById('category-count').textContent = `${getTotalLinkCount()} links`;
+        document.getElementById('category-count').textContent = `${linkCount} links`;
+
+        // Update meta tags dynamically
+        const desc = `Browse ${linkCount} curated ${categoryData.name.toLowerCase()} links and resources on My Light Reading.`;
+        document.querySelector('meta[name="description"]').setAttribute('content', desc);
 
         renderLinks();
       } catch (error) {
