@@ -39,7 +39,7 @@ function getTotalLinkCount(category) {
   return getAllLinks(category).length
 }
 
-export default function Home({ isDark, toggleTheme }) {
+export default function Home({ mounted, isDark, toggleTheme }) {
   const categories = linksData.categories || []
 
   return (
@@ -62,18 +62,38 @@ export default function Home({ isDark, toggleTheme }) {
         <meta name="twitter:url" content="https://mylightreading.com/" />
         <meta name="twitter:title" content="My Light Reading - Curated Link Directory" />
         <meta name="twitter:description" content="A curated directory of the best websites and resources across tech, science, finance, health, gaming, aviation, and more." />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "My Light Reading",
+              "description": "A curated directory of the best websites and resources across tech, science, finance, health, gaming, aviation, and more.",
+              "url": "https://mylightreading.com/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://mylightreading.com/?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
       </Head>
 
       <header>
         <div className="header-row">
           <h1><span className="logo-text">My Light Reading</span></h1>
-          <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle dark mode">
-            {isDark ? (
-              <><i className="fa-solid fa-sun"></i><span>Light</span></>
-            ) : (
-              <><i className="fa-solid fa-moon"></i><span>Dark</span></>
-            )}
-          </button>
+          {mounted && (
+            <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle dark mode">
+              {isDark ? (
+                <><i className="fa-solid fa-sun"></i><span>Light</span></>
+              ) : (
+                <><i className="fa-solid fa-moon"></i><span>Dark</span></>
+              )}
+            </button>
+          )}
         </div>
         <nav className="category-nav">
           {categories.map(cat => (

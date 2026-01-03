@@ -3,9 +3,11 @@ import Head from 'next/head'
 import { useEffect, useState } from 'react'
 
 export default function App({ Component, pageProps }) {
-  const [theme, setTheme] = useState(null)
+  const [mounted, setMounted] = useState(false)
+  const [theme, setTheme] = useState('light')
 
   useEffect(() => {
+    setMounted(true)
     const saved = localStorage.getItem('theme')
     if (saved) {
       document.documentElement.setAttribute('data-theme', saved)
@@ -17,25 +19,13 @@ export default function App({ Component, pageProps }) {
   }, [])
 
   const toggleTheme = () => {
-    const current = document.documentElement.getAttribute('data-theme')
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-
-    let newTheme
-    if (current === 'dark') {
-      newTheme = 'light'
-    } else if (current === 'light') {
-      newTheme = 'dark'
-    } else {
-      newTheme = prefersDark ? 'light' : 'dark'
-    }
-
+    const newTheme = theme === 'dark' ? 'light' : 'dark'
     document.documentElement.setAttribute('data-theme', newTheme)
     localStorage.setItem('theme', newTheme)
     setTheme(newTheme)
   }
 
-  const isDark = theme === 'dark' ||
-    (theme === null && typeof window !== 'undefined' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+  const isDark = theme === 'dark'
 
   return (
     <>
@@ -60,7 +50,7 @@ export default function App({ Component, pageProps }) {
           }}
         />
       </Head>
-      <Component {...pageProps} theme={theme} isDark={isDark} toggleTheme={toggleTheme} />
+      <Component {...pageProps} mounted={mounted} isDark={isDark} toggleTheme={toggleTheme} />
     </>
   )
 }

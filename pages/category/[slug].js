@@ -111,7 +111,7 @@ function NestedSubcategory({ sub, searchQuery }) {
   )
 }
 
-export default function CategoryPage({ category, allCategories, isDark, toggleTheme }) {
+export default function CategoryPage({ category, allCategories, mounted, isDark, toggleTheme }) {
   const [searchQuery, setSearchQuery] = useState('')
 
   if (!category) {
@@ -138,12 +138,30 @@ export default function CategoryPage({ category, allCategories, isDark, toggleTh
   return (
     <>
       <Head>
-        <title>{category.name} - Curated Links & Resources | My Light Reading</title>
+        <title>{`${category.name} - Curated Links & Resources | My Light Reading`}</title>
         <meta name="description" content={`Browse ${linkCount} curated ${category.name.toLowerCase()} links and resources on My Light Reading.`} />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="My Light Reading" />
         <meta name="twitter:card" content="summary" />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              "name": `${category.name} - My Light Reading`,
+              "description": `Browse ${linkCount} curated ${category.name.toLowerCase()} links and resources.`,
+              "url": `https://mylightreading.com/category/${slugify(category.name)}/`,
+              "isPartOf": {
+                "@type": "WebSite",
+                "name": "My Light Reading",
+                "url": "https://mylightreading.com/"
+              }
+            })
+          }}
+        />
       </Head>
 
       <header>
@@ -152,13 +170,15 @@ export default function CategoryPage({ category, allCategories, isDark, toggleTh
         </Link>
         <div className="header-row">
           <h1><span className="logo-text">My Light Reading</span></h1>
-          <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle dark mode">
-            {isDark ? (
-              <><i className="fa-solid fa-sun"></i><span>Light</span></>
-            ) : (
-              <><i className="fa-solid fa-moon"></i><span>Dark</span></>
-            )}
-          </button>
+          {mounted && (
+            <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle dark mode">
+              {isDark ? (
+                <><i className="fa-solid fa-sun"></i><span>Light</span></>
+              ) : (
+                <><i className="fa-solid fa-moon"></i><span>Dark</span></>
+              )}
+            </button>
+          )}
         </div>
         <nav className="category-nav">
           {allCategories.map(cat => (
