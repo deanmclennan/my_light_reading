@@ -9,6 +9,7 @@
   <meta name="author" content="My Light Reading">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://mylightreading.com/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -54,7 +55,7 @@
     }
 
     @media (prefers-color-scheme: dark) {
-      :root {
+      :root:not([data-theme="light"]) {
         --bg: #1a1a1a;
         --bg-secondary: #2a2a2a;
         --text: #e0e0e0;
@@ -62,6 +63,15 @@
         --border: #404040;
         --accent: #4d9fff;
       }
+    }
+
+    :root[data-theme="dark"] {
+      --bg: #1a1a1a;
+      --bg-secondary: #2a2a2a;
+      --text: #e0e0e0;
+      --text-muted: #999999;
+      --border: #404040;
+      --accent: #4d9fff;
     }
 
     * {
@@ -91,6 +101,36 @@
       display: flex;
       align-items: center;
       gap: 0.5rem;
+    }
+
+    .header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .theme-toggle {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 2rem;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text);
+      font-size: 0.875rem;
+      transition: all 0.15s;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .theme-toggle i {
+      font-size: 1rem;
     }
 
     .logo-text {
@@ -255,7 +295,13 @@
 </head>
 <body>
   <header>
-    <h1><span class="logo-text">My Light Reading</span></h1>
+    <div class="header-row">
+      <h1><span class="logo-text">My Light Reading</span></h1>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+        <span>Dark</span>
+      </button>
+    </div>
     <input type="text" class="search-box" placeholder="Search articles..." id="search" autocomplete="off">
     <nav class="category-nav" id="category-nav"></nav>
   </header>
@@ -264,6 +310,47 @@
   </main>
 
   <script>
+    // Theme toggle
+    function initTheme() {
+      const saved = localStorage.getItem('theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      }
+      updateToggleButton();
+    }
+
+    function updateToggleButton() {
+      const btn = document.getElementById('theme-toggle');
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark' ||
+        (!document.documentElement.getAttribute('data-theme') &&
+         window.matchMedia('(prefers-color-scheme: dark)').matches);
+
+      btn.innerHTML = isDark
+        ? '<i class="fa-solid fa-sun"></i><span>Light</span>'
+        : '<i class="fa-solid fa-moon"></i><span>Dark</span>';
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+      let newTheme;
+      if (current === 'dark') {
+        newTheme = 'light';
+      } else if (current === 'light') {
+        newTheme = 'dark';
+      } else {
+        newTheme = prefersDark ? 'light' : 'dark';
+      }
+
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateToggleButton();
+    }
+
+    document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+    initTheme();
+
     let linksData = [];
     const LINKS_PER_CATEGORY = 6;
 
