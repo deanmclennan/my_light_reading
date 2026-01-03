@@ -663,6 +663,84 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Health & Medicine",
+      "links": [
+        { "title": "WebMD", "url": "https://webmd.com" },
+        { "title": "Mayo Clinic", "url": "https://mayoclinic.org" },
+        { "title": "Healthline", "url": "https://healthline.com" },
+        { "title": "NIH", "url": "https://nih.gov" },
+        { "title": "Medical News Today", "url": "https://medicalnewstoday.com" },
+        { "title": "STAT News", "url": "https://statnews.com" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Topic",
+          "subcategories": [
+            {
+              "name": "Health News",
+              "links": [
+                { "title": "STAT News", "url": "https://statnews.com" },
+                { "title": "Medical News Today", "url": "https://medicalnewstoday.com" },
+                { "title": "Health News", "url": "https://healthnews.com" },
+                { "title": "Medscape", "url": "https://medscape.com" },
+                { "title": "NPR Health", "url": "https://npr.org/sections/health" }
+              ]
+            },
+            {
+              "name": "Medical Reference",
+              "links": [
+                { "title": "Mayo Clinic", "url": "https://mayoclinic.org" },
+                { "title": "WebMD", "url": "https://webmd.com" },
+                { "title": "Healthline", "url": "https://healthline.com" },
+                { "title": "Cleveland Clinic", "url": "https://my.clevelandclinic.org" },
+                { "title": "MedlinePlus", "url": "https://medlineplus.gov" }
+              ]
+            },
+            {
+              "name": "Research & Journals",
+              "links": [
+                { "title": "NIH", "url": "https://nih.gov" },
+                { "title": "PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov" },
+                { "title": "The Lancet", "url": "https://thelancet.com" },
+                { "title": "NEJM", "url": "https://nejm.org" },
+                { "title": "JAMA Network", "url": "https://jamanetwork.com" },
+                { "title": "BMJ", "url": "https://bmj.com" }
+              ]
+            },
+            {
+              "name": "Fitness & Nutrition",
+              "links": [
+                { "title": "Examine", "url": "https://examine.com" },
+                { "title": "Nutrition Facts", "url": "https://nutritionfacts.org" },
+                { "title": "Precision Nutrition", "url": "https://precisionnutrition.com" },
+                { "title": "Stronger by Science", "url": "https://strongerbyscience.com" },
+                { "title": "Reddit r/fitness", "url": "https://reddit.com/r/fitness" }
+              ]
+            },
+            {
+              "name": "Mental Health",
+              "links": [
+                { "title": "NIMH", "url": "https://nimh.nih.gov" },
+                { "title": "Psychology Today", "url": "https://psychologytoday.com" },
+                { "title": "Mind", "url": "https://mind.org.uk" },
+                { "title": "Headspace", "url": "https://headspace.com" },
+                { "title": "Calm", "url": "https://calm.com" }
+              ]
+            },
+            {
+              "name": "Drug Information",
+              "links": [
+                { "title": "Drugs.com", "url": "https://drugs.com" },
+                { "title": "RxList", "url": "https://rxlist.com" },
+                { "title": "FDA", "url": "https://fda.gov" },
+                { "title": "GoodRx", "url": "https://goodrx.com" }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
