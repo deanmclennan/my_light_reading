@@ -308,6 +308,35 @@
       color: #ffffff;
     }
 
+    footer {
+      margin-top: 3rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
     @media (max-width: 768px) {
       body {
         padding: 1rem;
@@ -346,6 +375,14 @@
     <input type="text" class="search-box" placeholder="Search in this category..." id="search" autocomplete="off">
     <div id="content"></div>
   </main>
+
+  <footer>
+    <p><strong>My Light Reading</strong> — A curated directory of quality links across tech, science, finance, and more.</p>
+    <p>Hand-picked resources to help you stay informed without the noise.</p>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/deanmclennan" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> Dean McLennan</a>
+    </div>
+  </footer>
 
   <script>
     // Theme toggle
