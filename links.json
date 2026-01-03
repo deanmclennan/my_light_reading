@@ -523,6 +523,75 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Finance",
+      "links": [
+        { "title": "Bloomberg", "url": "https://bloomberg.com" },
+        { "title": "Financial Times", "url": "https://ft.com" },
+        { "title": "Wall Street Journal", "url": "https://wsj.com" },
+        { "title": "Reuters", "url": "https://reuters.com" },
+        { "title": "Yahoo Finance", "url": "https://finance.yahoo.com" },
+        { "title": "MarketWatch", "url": "https://marketwatch.com" }
+      ],
+      "subcategories": [
+        {
+          "name": "By Topic",
+          "subcategories": [
+            {
+              "name": "News & Markets",
+              "links": [
+                { "title": "Bloomberg", "url": "https://bloomberg.com" },
+                { "title": "Financial Times", "url": "https://ft.com" },
+                { "title": "Wall Street Journal", "url": "https://wsj.com" },
+                { "title": "Reuters", "url": "https://reuters.com" },
+                { "title": "CNBC", "url": "https://cnbc.com" },
+                { "title": "MarketWatch", "url": "https://marketwatch.com" }
+              ]
+            },
+            {
+              "name": "Investing",
+              "links": [
+                { "title": "Investopedia", "url": "https://investopedia.com" },
+                { "title": "Seeking Alpha", "url": "https://seekingalpha.com" },
+                { "title": "Morningstar", "url": "https://morningstar.com" },
+                { "title": "The Motley Fool", "url": "https://fool.com" },
+                { "title": "Barron's", "url": "https://barrons.com" }
+              ]
+            },
+            {
+              "name": "Personal Finance",
+              "links": [
+                { "title": "NerdWallet", "url": "https://nerdwallet.com" },
+                { "title": "Bankrate", "url": "https://bankrate.com" },
+                { "title": "The Balance", "url": "https://thebalancemoney.com" },
+                { "title": "Reddit r/personalfinance", "url": "https://reddit.com/r/personalfinance" },
+                { "title": "Mr. Money Mustache", "url": "https://mrmoneymustache.com" }
+              ]
+            },
+            {
+              "name": "Crypto",
+              "links": [
+                { "title": "CoinDesk", "url": "https://coindesk.com" },
+                { "title": "CoinTelegraph", "url": "https://cointelegraph.com" },
+                { "title": "CoinGecko", "url": "https://coingecko.com" },
+                { "title": "CoinMarketCap", "url": "https://coinmarketcap.com" },
+                { "title": "The Block", "url": "https://theblock.co" }
+              ]
+            },
+            {
+              "name": "Data & Tools",
+              "links": [
+                { "title": "Yahoo Finance", "url": "https://finance.yahoo.com" },
+                { "title": "TradingView", "url": "https://tradingview.com" },
+                { "title": "Finviz", "url": "https://finviz.com" },
+                { "title": "Stock Analysis", "url": "https://stockanalysis.com" },
+                { "title": "Koyfin", "url": "https://koyfin.com" }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
